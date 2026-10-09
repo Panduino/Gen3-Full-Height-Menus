@@ -1,19 +1,20 @@
 {
   "id": "gen3_fullheight_menus",
   "name": "Gen 3 Full-Height Menus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "api": 2,
   "entry": "main.lua",
   "profile": "content",
   "category": "OTHER",
   "games": [
     "firered",
-    "leafgreen"
+    "leafgreen",
+    "emerald"
   ],
   "game_version": ">=0.3.14",
   "priority": 276,
   "permissions": [
     "engine_internals"
   ],
-  "description": "Scales FireRed/LeafGreen menus, title/save selection and quest recap to fit the display height while preserving aspect ratio."
+  "description": "Scales FireRed, LeafGreen and Emerald full-screen menus to fit the display height while preserving aspect ratio; keeps overworld overlays unchanged."
 }
